@@ -21,23 +21,52 @@
  * 
  */
 
+#include <inttypes.h>
 #include <stdio.h>
 
 int main(int argc, char **argv)
 {
-	int m;
-	scanf("%d", &m);
-	if (m>=3 && m<=5) {
+	uint8_t m;
+	scanf("%" SCNu8, &m);
+
+switch (m) {
+	case 1:
+		printf("winter");
+		break;
+	case 2:
+		printf("winter");
+		break;
+	case 3:
 		printf("spring");
-	}
-	else if (m>=6 && m<=8) {
+		break;
+	case 4:
+		printf("spring");
+		break;
+	case 5:
+		printf("spring");
+		break;
+	case 6:
 		printf("summer");
-	}
-	else if (m>=9 && m<=11) {
+		break;
+	case 7:
+		printf("summer");
+		break;
+	case 8:
+		printf("summer");
+		break;
+	case 9:
 		printf("autumn");
-	}
-	else
-	printf("winter");
+		break;
+	case 10:
+		printf("autumn");
+		break;
+	case 11:
+		printf("autumn");
+		break;
+	case 12:
+		printf("winter");
+		break;
+}
 
 	return 0;
 }
