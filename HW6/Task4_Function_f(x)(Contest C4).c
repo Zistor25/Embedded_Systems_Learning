@@ -17,9 +17,9 @@ int fX(int x)
 }
 
 
-int main(int argc, char **argv)
+int main(void)
 {
-	int x, max = -100;
+	int x = 1, max = -100;
 	
 	while (x !=0)
 	{
