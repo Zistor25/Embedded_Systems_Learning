@@ -36,9 +36,6 @@ void int_to_char(int index, int len, int n, char array[])//преобразов�
 
 int pack_string(int size, char c[], char b[])
 {
-    //~ int length_b = 0;
-    //~ char current = a[0];
-    //~ char previous = a[0];
     int counter = 1;
     int i = 1;
     int j = 0;
